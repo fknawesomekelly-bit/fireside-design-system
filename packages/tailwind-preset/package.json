@@ -1,0 +1,9 @@
+{
+  "name": "@fireside/tailwind-preset",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./index.js",
+  "files": ["index.js"],
+  "peerDependencies": { "tailwindcss": "^3.4.0" },
+  "publishConfig": { "registry": "https://npm.pkg.github.com" }
+}
