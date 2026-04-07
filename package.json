@@ -1,0 +1,19 @@
+{
+  "name": "fireside-design-system",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate-all.mjs",
+    "validate:tokens": "node scripts/validators/check-tokens.mjs",
+    "validate:components": "node scripts/validators/check-components.mjs",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "husky": "^9.1.6"
+  },
+  "packageManager": "pnpm@9.12.0",
+  "engines": {
+    "node": ">=20.10.0"
+  }
+}

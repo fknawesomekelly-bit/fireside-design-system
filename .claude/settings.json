@@ -1,0 +1,19 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit|MultiEdit|create_file|str_replace",
+        "hooks": [
+          { "type": "command", "command": "node .claude/hooks/guard-no-hex.mjs" },
+          { "type": "command", "command": "node .claude/hooks/guard-token-schema.mjs" }
+        ]
+      },
+      {
+        "matcher": "Bash|bash_tool",
+        "hooks": [
+          { "type": "command", "command": "node .claude/hooks/guard-bash.mjs" }
+        ]
+      }
+    ]
+  }
+}

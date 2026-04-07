@@ -1,0 +1,9 @@
+node_modules
+dist
+build
+.next
+.turbo
+*.log
+.DS_Store
+storybook-static
+_ref-*
