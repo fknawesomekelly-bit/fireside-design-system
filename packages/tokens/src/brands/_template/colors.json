@@ -1,0 +1,28 @@
+{
+  "color": {
+    "brand": {
+      "primary":   { "$value": "#3B82F6", "$type": "color" },
+      "secondary": { "$value": "#10B981", "$type": "color" },
+      "accent":    { "$value": "#F59E0B", "$type": "color" },
+      "neutral":   { "$value": "#6B7280", "$type": "color" }
+    },
+    "semantic": {
+      "background":            { "$value": "#FFFFFF", "$type": "color" },
+      "foreground":            { "$value": "#111827", "$type": "color" },
+      "primary":               { "$value": "{color.brand.primary}", "$type": "color" },
+      "primary-foreground":    { "$value": "#FFFFFF", "$type": "color" },
+      "secondary":             { "$value": "{color.brand.secondary}", "$type": "color" },
+      "secondary-foreground":  { "$value": "#FFFFFF", "$type": "color" },
+      "accent":                { "$value": "{color.brand.accent}", "$type": "color" },
+      "accent-foreground":     { "$value": "#111827", "$type": "color" },
+      "muted":                 { "$value": "#F3F4F6", "$type": "color" },
+      "muted-foreground":      { "$value": "{color.brand.neutral}", "$type": "color" },
+      "border":                { "$value": "#E5E7EB", "$type": "color" },
+      "destructive":           { "$value": "#DC2626", "$type": "color" },
+      "destructive-foreground":{ "$value": "#FFFFFF", "$type": "color" },
+      "success":               { "$value": "#16A34A", "$type": "color" },
+      "warning":               { "$value": "#F59E0B", "$type": "color" },
+      "info":                  { "$value": "{color.brand.primary}", "$type": "color" }
+    }
+  }
+}

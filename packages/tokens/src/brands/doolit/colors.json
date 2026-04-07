@@ -1,0 +1,30 @@
+{
+  "color": {
+    "brand": {
+      "pink":      { "$value": "#FF2D9B", "$type": "color" },
+      "blue":      { "$value": "#22B8F0", "$type": "color" },
+      "orange":    { "$value": "#FF7A20", "$type": "color" },
+      "purple":    { "$value": "#9B6FFB", "$type": "color" },
+      "warmgray":  { "$value": "#D4D0C8", "$type": "color" },
+      "warmwhite": { "$value": "#FAFAF6", "$type": "color" }
+    },
+    "semantic": {
+      "background":            { "$value": "{color.brand.warmwhite}", "$type": "color" },
+      "foreground":            { "$value": "#1A1A1A", "$type": "color" },
+      "primary":               { "$value": "{color.brand.pink}", "$type": "color" },
+      "primary-foreground":    { "$value": "#FFFFFF", "$type": "color" },
+      "secondary":             { "$value": "{color.brand.blue}", "$type": "color" },
+      "secondary-foreground":  { "$value": "#FFFFFF", "$type": "color" },
+      "accent":                { "$value": "{color.brand.orange}", "$type": "color" },
+      "accent-foreground":     { "$value": "#FFFFFF", "$type": "color" },
+      "muted":                 { "$value": "{color.brand.warmgray}", "$type": "color" },
+      "muted-foreground":      { "$value": "#525252", "$type": "color" },
+      "border":                { "$value": "{color.brand.warmgray}", "$type": "color" },
+      "destructive":           { "$value": "#DC2626", "$type": "color" },
+      "destructive-foreground":{ "$value": "#FFFFFF", "$type": "color" },
+      "success":               { "$value": "#16A34A", "$type": "color" },
+      "warning":               { "$value": "#F59E0B", "$type": "color" },
+      "info":                  { "$value": "{color.brand.blue}", "$type": "color" }
+    }
+  }
+}
