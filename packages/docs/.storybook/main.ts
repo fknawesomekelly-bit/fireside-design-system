@@ -11,6 +11,10 @@ const config: StorybookConfig = {
     name: '@storybook/react-vite',
     options: {},
   },
+  viteFinal: (config) => {
+    config.base = '/fireside-design-system/'
+    return config
+  },
 }
 
 export default config
