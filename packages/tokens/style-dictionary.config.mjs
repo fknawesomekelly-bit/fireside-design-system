@@ -11,7 +11,7 @@ const sharedSources = [
 
 for (const brand of brands) {
   const sdLight = new StyleDictionary({
-    source: [...sharedSources, `src/brands/${brand}/colors.json`],
+    source: [...sharedSources, `src/brands/${brand}/colors.json`, `src/brands/${brand}/md3-*.json`],
     platforms: {
       css: {
         transformGroup: 'css',
@@ -32,7 +32,7 @@ for (const brand of brands) {
   await sdLight.buildAllPlatforms()
 
   const sdDark = new StyleDictionary({
-    source: [...sharedSources, `src/brands/${brand}/colors.dark.json`],
+    source: [...sharedSources, `src/brands/${brand}/colors.dark.json`, `src/brands/${brand}/md3-*.json`],
     platforms: {
       css: {
         transformGroup: 'css',

@@ -1,0 +1,100 @@
+{
+  "md-sys-color": {
+    "primary": {
+      "$value": "#9B1060",
+      "$type": "color"
+    },
+    "on-primary": {
+      "$value": "#FFFFFF",
+      "$type": "color"
+    },
+    "primary-container": {
+      "$value": "#FFD8E9",
+      "$type": "color"
+    },
+    "on-primary-container": {
+      "$value": "#3B0025",
+      "$type": "color"
+    },
+    "secondary": {
+      "$value": "#745662",
+      "$type": "color"
+    },
+    "on-secondary": {
+      "$value": "#FFFFFF",
+      "$type": "color"
+    },
+    "secondary-container": {
+      "$value": "#FFD8E5",
+      "$type": "color"
+    },
+    "on-secondary-container": {
+      "$value": "#2C1520",
+      "$type": "color"
+    },
+    "tertiary": {
+      "$value": "#7B5635",
+      "$type": "color"
+    },
+    "on-tertiary": {
+      "$value": "#FFFFFF",
+      "$type": "color"
+    },
+    "tertiary-container": {
+      "$value": "#FFDCBF",
+      "$type": "color"
+    },
+    "on-tertiary-container": {
+      "$value": "#2D1600",
+      "$type": "color"
+    },
+    "error": {
+      "$value": "#BA1A1A",
+      "$type": "color"
+    },
+    "on-error": {
+      "$value": "#FFFFFF",
+      "$type": "color"
+    },
+    "error-container": {
+      "$value": "#FFDAD6",
+      "$type": "color"
+    },
+    "on-error-container": {
+      "$value": "#410002",
+      "$type": "color"
+    },
+    "surface": {
+      "$value": "#FFF8F8",
+      "$type": "color"
+    },
+    "on-surface": {
+      "$value": "#22191C",
+      "$type": "color"
+    },
+    "surface-container-lowest": {
+      "$value": "#FFFFFF",
+      "$type": "color"
+    },
+    "surface-container-low": {
+      "$value": "#FEF1F3",
+      "$type": "color"
+    },
+    "surface-container": {
+      "$value": "#F8EBED",
+      "$type": "color"
+    },
+    "surface-container-high": {
+      "$value": "#F2E5E8",
+      "$type": "color"
+    },
+    "outline": {
+      "$value": "#837377",
+      "$type": "color"
+    },
+    "outline-variant": {
+      "$value": "#D6C2C7",
+      "$type": "color"
+    }
+  }
+}
